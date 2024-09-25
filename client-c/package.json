@@ -1,0 +1,18 @@
+{
+  "name": "client-c",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "client-c.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@apollo/client": "^3.11.8",
+    "amqplib": "^0.10.4",
+    "node-fetch": "^3.3.2"
+  }
+}

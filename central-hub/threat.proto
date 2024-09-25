@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package threatPackage;
+
+// The threat report message
+message Threat {
+  string api_id = 1;
+  string threat_type = 2;
+  string details = 3;
+}
+
+// The service definition
+service ThreatService {
+  rpc reportThreatGrpc (Threat) returns (ThreatResponse);
+}
+
+// The response message
+message ThreatResponse {
+  string message = 1;
+}
